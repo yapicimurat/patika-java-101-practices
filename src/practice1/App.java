@@ -12,34 +12,34 @@ public class App {
 
         Scanner scanner = new Scanner(System.in);
 
-        double matematik = 0;
+        double math = 0;
         System.out.println("Matematik notunuzu giriniz: ");
-        matematik = scanner.nextDouble();
+        math = scanner.nextDouble();
 
-        double fizik = 0;
+        double physic = 0;
         System.out.println("Fizik notunuzu giriniz: ");
-        fizik = scanner.nextDouble();
+        physic = scanner.nextDouble();
 
-        double kimya = 0;
+        double chemical = 0;
         System.out.println("Kimya notunuzu giriniz: ");
-        kimya = scanner.nextDouble();
+        chemical = scanner.nextDouble();
 
-        double turkce = 0;
+        double turkish = 0;
         System.out.println("Türkçe notunuzu giriniz: ");
-        turkce = scanner.nextDouble();
+        turkish = scanner.nextDouble();
 
-        double tarih = 0;
+        double history = 0;
         System.out.println("Tarih notunuzu giriniz: ");
-        tarih = scanner.nextDouble();
+        history = scanner.nextDouble();
 
-        double muzik = 0;
+        double music = 0;
         System.out.println("Müzik notunuzu giriniz: ");
-        muzik = scanner.nextDouble();
+        music = scanner.nextDouble();
 
-        double ortalama = (matematik + fizik + kimya + turkce + tarih + muzik) / 6;
-        String sonucMesaji = (ortalama >= 60) ? "Sınıfı geçti" : "Sınıfta Kaldı";
+        double avarage = (math + physic + chemical + turkish + history + music) / 6;
+        String resultMessage = (avarage >= 60) ? "Sınıfı geçti" : "Sınıfta Kaldı";
 
-        System.out.println("Ortalama : " + ortalama + " " + sonucMesaji);
+        System.out.println("Ortalama : " + avarage + " " + resultMessage);
 
     }
 }
