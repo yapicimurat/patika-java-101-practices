@@ -65,7 +65,6 @@ class Ring {
             while (f1.health > 0 && f2.health > 0) {
                 System.out.println("========YENİ ROUND ========");
                 int chance = Math.round((float)Math.random());
-
                 if (chance == 0) {
                     this.f2.health=this.f1.hit(f2);
                     if (isWin()) {
